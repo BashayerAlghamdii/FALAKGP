@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }else {
                             progressDialog.dismiss();
-                            Toast.makeText(MainActivity.this, "هنالك خطأ تأكد من البيانات واحول مرة أخرى", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "هنالك خطأ تأكد من البيانات وحاول مرة أخرى", Toast.LENGTH_SHORT).show();
 
                         }
                     }

@@ -48,7 +48,7 @@ public class Homepage extends AppCompatActivity {
             }
         });
 
-        //العنود
+
         postt = (Button) findViewById(R.id.postbutton);
         postt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -76,6 +76,15 @@ public class Homepage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //more page linking
+        ImageButton moree = findViewById(R.id.moreButton4);
+        moree.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openmore();
+            }
+        });
+
     }
 
     public void openSignin() {
@@ -90,8 +99,7 @@ public class Homepage extends AppCompatActivity {
 
     }
 
-    //العنود
-    //in progress profileButton4
+
     public void openposts() {
         Intent intent = new Intent(this, posts.class);
         startActivity(intent);
@@ -106,6 +114,13 @@ public class Homepage extends AppCompatActivity {
 
     public void openprofile() {
         Intent intent = new Intent(this, viewprofile.class);
+        startActivity(intent);
+
+    }
+
+    //open more page
+    public void openmore() {
+        Intent intent = new Intent(this, settings.class);
         startActivity(intent);
 
     }
