@@ -27,9 +27,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".group_chatting"
-            android:exported="false" />
-        <activity
             android:name=".events"
             android:exported="false" />
         <activity
