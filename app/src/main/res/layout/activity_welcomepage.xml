@@ -11,7 +11,7 @@
         android:id="@+id/imageView14"
         android:layout_width="240dp"
         android:layout_height="205dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="68dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
         android:id="@+id/textView15"
         android:layout_width="316dp"
         android:layout_height="62dp"
-        android:text="وجهتك الأولى نحو اكتشاف فضاؤنا"
+        android:text="وجهتك الأولى نحو اكتشاف الفضاء"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
@@ -62,4 +62,5 @@
         app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="392dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
