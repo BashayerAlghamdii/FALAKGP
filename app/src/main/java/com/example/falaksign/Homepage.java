@@ -120,7 +120,7 @@ public class Homepage extends AppCompatActivity {
 
     //open more page
     public void openmore() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, settings.class);
         startActivity(intent);
 
     }
