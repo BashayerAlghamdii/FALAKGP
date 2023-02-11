@@ -45,7 +45,8 @@ public class viewpost extends AppCompatActivity {
         likeIV = findViewById(R.id.imageView10);
         commentIV = findViewById(R.id.imageView11);
         commentET = findViewById(R.id.editTextTextPersonName2);
-
+        TextView titleForPost = findViewById(R.id.titleForPost);
+        titleForPost.setText(PostAdapter.postItem.getComment() + "");
         Picasso.get().load(PostAdapter.postItem.getImage()).into(postImage);
 
         likeIV.setOnClickListener(new View.OnClickListener() {

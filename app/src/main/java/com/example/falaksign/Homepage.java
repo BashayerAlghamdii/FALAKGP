@@ -48,7 +48,7 @@ public class Homepage extends AppCompatActivity {
             }
         });
 
-        //العنود
+
         postt = (Button) findViewById(R.id.postbutton);
         postt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -90,8 +90,7 @@ public class Homepage extends AppCompatActivity {
 
     }
 
-    //العنود
-    //in progress profileButton4
+
     public void openposts() {
         Intent intent = new Intent(this, posts.class);
         startActivity(intent);
