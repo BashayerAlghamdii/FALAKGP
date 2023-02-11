@@ -16,8 +16,7 @@ public class welcomepage extends AppCompatActivity {
 
         Button signup = findViewById(R.id.signuup2);
         signup.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                opensignup();
+            public void onClick(View v) {opensignup();
             }
         });
         Button login = findViewById(R.id.login2);

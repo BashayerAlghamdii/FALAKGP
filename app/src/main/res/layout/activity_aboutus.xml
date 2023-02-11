@@ -24,13 +24,13 @@
         android:id="@+id/developersinfo2"
         android:layout_width="334dp"
         android:layout_height="148dp"
-        android:text="طالبات جامعة أم القرى 2023 كلية  الحاسب الآلي ونظم المعلومات "
+        android:text="لطالبات جامعة أم القرى لعام 2022|2023 تخصص علوم الحاسب الآلي كلية الحاسب ونظم المعلومات"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="400dp" />
+        tools:layout_editor_absoluteY="480dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -84,13 +84,13 @@
 
     <TextView
         android:id="@+id/developersinfo"
-        android:layout_width="334dp"
-        android:layout_height="148dp"
-        android:text="نحن من نتوقع تطور علم الفلك في المملكة العربية السعودية ونعمل جاهدين لتطويره"
+        android:layout_width="362dp"
+        android:layout_height="226dp"
+        android:text="يهدف تطبيق فلك لإنشاء جيل واعٍ في مجال الفلك والفضاء ودعم الهواة  وتوفير خدمات للهواة والمستطلعين تساعدهم في استكشافهم عالم الفضاء"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="252dp" />
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="242dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
