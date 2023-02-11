@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class settings extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class settings extends AppCompatActivity {
 
         Button Aboutus = findViewById(R.id.aboutus);
         Button Logout = findViewById(R.id.logout);
+        ImageButton homepage=findViewById(R.id.imageButtonback);
 
         Aboutus.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -26,6 +28,12 @@ public class settings extends AppCompatActivity {
         Logout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 openlogut();
+            }
+        });
+
+        Logout.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openhomepage();
             }
         });
 
@@ -40,6 +48,11 @@ public class settings extends AppCompatActivity {
 
     public void openlogut() {
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+
+    }
+    public void openhomepage() {
+        Intent intent = new Intent(this, Homepage.class);
         startActivity(intent);
 
     }
