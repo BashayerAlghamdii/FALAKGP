@@ -12,6 +12,6 @@ public class aboutus extends AppCompatActivity {
         setContentView(R.layout.activity_aboutus);
 
 
-        ///Hi
+        ///Hi hhhhhhhhhhh
     }
 }
