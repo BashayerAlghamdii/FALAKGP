@@ -50,6 +50,47 @@ public class viewprofile extends AppCompatActivity {
         } else {
             Picasso.get().load(Homepage.user.getImage()).into(imageView);
         }
+        ///bottom bar
+
+        View home1 = findViewById(R.id.homeButton8);
+        home1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openhome();
+            }
+        });
+
+        View viewp = findViewById(R.id.profileButton8);
+        viewp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openprofile();
+            }
+        });
+
+
+        View more = findViewById(R.id.moreButton8);
+        more.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openmore();
+            }
+        });
+
+    }
+    //////buttons bar
+    public void openprofile() {
+        Intent intent = new Intent(this, viewprofile.class);
+        startActivity(intent);
+
+    }
+
+    //open more page
+    public void openmore() {
+        Intent intent = new Intent(this, settings.class);
+        startActivity(intent);
+
+    }
+    public void openhome() {
+        Intent intent = new Intent(this, Homepage.class);
+        startActivity(intent);
 
     }
 

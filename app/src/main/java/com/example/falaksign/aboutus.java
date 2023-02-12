@@ -16,16 +16,53 @@ public class aboutus extends AppCompatActivity {
 
         back.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                opensettings();
+                openmore();
+            }
+        });
+
+        //bottom bar
+        View home1 = findViewById(R.id.homeButton7);
+        home1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openhome();
+            }
+        });
+
+        View viewp = findViewById(R.id.profileButton7);
+        viewp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openprofile();
+            }
+        });
+
+
+        View more = findViewById(R.id.moreButton7);
+        more.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openmore();
             }
         });
 
     }
-    public void opensettings() {
+    ////bar buttons
+    public void openprofile() {
+        Intent intent = new Intent(this, viewprofile.class);
+        startActivity(intent);
+
+    }
+
+    //open more page
+    public void openmore() {
         Intent intent = new Intent(this, settings.class);
         startActivity(intent);
 
     }
+    public void openhome() {
+        Intent intent = new Intent(this, Homepage.class);
+        startActivity(intent);
+
+    }
+
 
 
 }

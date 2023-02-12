@@ -31,11 +31,51 @@ public class settings extends AppCompatActivity {
             }
         });
 
-        Logout.setOnClickListener(new View.OnClickListener() {
+
+
+        //bar buttons
+
+        View home1 = findViewById(R.id.homeButton2);
+        home1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openhomepage();
+                openhome();
             }
         });
+
+        View viewp = findViewById(R.id.profileButton3);
+        viewp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openprofile();
+            }
+        });
+
+
+        View more = findViewById(R.id.moreButton3);
+        more.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openmore();
+            }
+        });
+
+
+    }
+
+
+    public void openprofile() {
+        Intent intent = new Intent(this, viewprofile.class);
+        startActivity(intent);
+
+    }
+
+    //open more page
+    public void openmore() {
+        Intent intent = new Intent(this, settings.class);
+        startActivity(intent);
+
+    }
+    public void openhome() {
+        Intent intent = new Intent(this, Homepage.class);
+        startActivity(intent);
 
     }
 
@@ -51,9 +91,5 @@ public class settings extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void openhomepage() {
-        Intent intent = new Intent(this, Homepage.class);
-        startActivity(intent);
 
-    }
 }

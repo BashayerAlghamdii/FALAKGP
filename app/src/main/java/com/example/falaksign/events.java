@@ -60,19 +60,49 @@ public class events extends AppCompatActivity {
 
 
 
-      //  View home1 = findViewById(R.id.homeButton7);
-       // home1.setOnClickListener(new View.OnClickListener() {
-          //  public void onClick(View v) {
-           //     openhome();
-          //  }
-       // });
+      View home1 = findViewById(R.id.homeButton);
+       home1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+              openhome();
+            }
+        });
+
+        View viewp = findViewById(R.id.profileButton);
+        viewp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openprofile();
+            }
+        });
+
+
+        View more = findViewById(R.id.moreButton);
+        more.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openmore();
+            }
+        });
+
+
 
     }
-   // public void openhome() {
-     //   Intent intent = new Intent(this, Homepage.class);
-        //startActivity(intent);
+   ////bar buttons
+    public void openprofile() {
+        Intent intent = new Intent(this, viewprofile.class);
+        startActivity(intent);
 
-    //}
+    }
+
+    //open more page
+    public void openmore() {
+        Intent intent = new Intent(this, settings.class);
+        startActivity(intent);
+
+    }
+    public void openhome() {
+    Intent intent = new Intent(this, Homepage.class);
+    startActivity(intent);
+
+    }
 
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);

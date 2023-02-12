@@ -137,7 +137,7 @@ public class editprofile extends AppCompatActivity {
             }
         });
 
-        View home1 = findViewById(R.id.homeButton3);
+        View home1 = findViewById(R.id.homeButton6);
         home1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 openhome();
@@ -151,6 +151,42 @@ public class editprofile extends AppCompatActivity {
                 PerforAuth();
             }
         });
+
+        //bottom bar
+        View home = findViewById(R.id.homeButton6);
+        home1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openhome();
+            }
+        });
+
+        View viewp = findViewById(R.id.profileButton6);
+        viewp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openprofile();
+            }
+        });
+
+
+        View more = findViewById(R.id.moreButton6);
+        more.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                openmore();
+            }
+        });
+
+    }
+    ////button bar
+    public void openprofile() {
+        Intent intent = new Intent(this, viewprofile.class);
+        startActivity(intent);
+
+    }
+
+    //open more page
+    public void openmore() {
+        Intent intent = new Intent(this, settings.class);
+        startActivity(intent);
 
     }
 
@@ -338,6 +374,9 @@ public class editprofile extends AppCompatActivity {
             }
         }
     }
+
+    /////bar buttons
+
 
 }
 //homeButton3
