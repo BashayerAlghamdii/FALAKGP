@@ -121,7 +121,7 @@ public class chatbot extends AppCompatActivity {
             chatbotRecyclerView.getLayoutManager().scrollToPosition(chatBotItemList.size() - 1);
             adapter.filterList(chatBotItemList);
         } else {
-            chatBotItemList.add(new ChatBotItem("answer to this question is not available now", "Answer"));
+            chatBotItemList.add(new ChatBotItem("أعتذر للغاية, ولكنني لا اعلم ماهو الجواب حتى الان!", "Answer"));
             chatbotRecyclerView.getLayoutManager().scrollToPosition(chatBotItemList.size() - 1);
             adapter.filterList(chatBotItemList);
         }
