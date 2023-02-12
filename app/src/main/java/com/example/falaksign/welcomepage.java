@@ -16,13 +16,13 @@ public class welcomepage extends AppCompatActivity {
 
         Button signup = findViewById(R.id.signuup2);
         signup.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {opensignup();
+            public void onClick(View v) {openlogin ();
             }
         });
         Button login = findViewById(R.id.login2);
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openlogin();
+                opensignup();
             }
         });
     }
