@@ -8,6 +8,54 @@
     tools:context=".aboutus">
 
     <ImageButton
+        android:id="@+id/homeButton7"
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/homeicon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/profileButton7"
+        android:layout_width="71dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="168dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/proicon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/moreButton7"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="312dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/moreicon"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
         android:id="@+id/imageButtonback6"
         android:layout_width="48dp"
         android:layout_height="49dp"
@@ -49,42 +97,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/falak_logo"
         app:tint="#FFFFFF" />
-
-    <ImageButton
-        android:id="@+id/homeButton6"
-        android:layout_width="66dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="28dp"
-        android:backgroundTint="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/homeicon"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="677dp" />
-
-    <ImageButton
-        android:id="@+id/profileButton6"
-        android:layout_width="71dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="168dp"
-        android:backgroundTint="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/proicon"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="680dp" />
-
-    <ImageButton
-        android:id="@+id/moreButton6"
-        android:layout_width="75dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="312dp"
-        android:backgroundTint="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/moreicon"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="683dp" />
 
     <TextView
         android:id="@+id/developersinfo"

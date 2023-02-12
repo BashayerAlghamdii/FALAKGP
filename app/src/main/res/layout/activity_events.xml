@@ -8,7 +8,7 @@
     tools:context=".events">
 
     <ImageButton
-        android:id="@+id/homeButton2"
+        android:id="@+id/homeButton"
         android:layout_width="66dp"
         android:layout_height="58dp"
         android:layout_marginStart="28dp"
@@ -16,7 +16,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -24,7 +24,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/profileButton3"
+        android:id="@+id/profileButton"
         android:layout_width="71dp"
         android:layout_height="55dp"
         android:layout_marginStart="168dp"
@@ -32,7 +32,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintHorizontal_bias="0.011"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -40,7 +40,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/moreButton3"
+        android:id="@+id/moreButton"
         android:layout_width="75dp"
         android:layout_height="53dp"
         android:layout_marginStart="312dp"
@@ -48,7 +48,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
